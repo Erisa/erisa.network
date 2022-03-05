@@ -1,0 +1,49 @@
+body {
+    margin: 40px auto;
+    max-width: 650px;
+    line-height: 1.6;
+    font-size: 18px;
+    padding: 0 10px;
+    font-family: "Raleway";
+}
+
+a {
+    color: #0077aa;
+    text-decoration:none;
+}
+
+h1, h2, h3 {
+    line-height: 1.2;
+}
+
+.erisa {
+    color: #C63B65;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li::before {
+    content: "- ";
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1e1e1e;
+        color: white;
+    }
+
+    a {
+        color: #3391ff;
+    }
+}
+
+/* raleway-500 - latin-ext_latin */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+        url('/fonts/raleway-v19-latin-ext_latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+}
